@@ -11,3 +11,4 @@ Uso:
 Contribución:
 Creditos:
 Licencia:
+https://choosealicence.com
