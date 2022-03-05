@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+   <title> Pasteleria - La Practica </title>
+   <link rel="icon" type="image/x-icon" href="Imagenes/logo.png" />
+
+   <style>
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table, th, td {
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
+         background-color: #FFFECB;
+      }
+
+      td {
+         padding: 5px;
+      }
+
+      .container {
+         background-color: #3D0C11;
+      }
+
+      .menu {
+         height: 40px;
+         width: 100%;
+         background-color: #503047;
+         color: #FFFECB;
+      }
+
+      a:visited {
+         color: azure;
+      }
+
+      .main-body {
+         background-color: #3D0C11;
+         color: #FFFECB;
+      }
+
+      .main-body > table {
+         color: #3D0C11;
+      }
+
+      .main-body > #title-logo{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+      }
+
+      .titulo {
+         text-align: center;
+      }
+
+      .producto {
+         border-radius: 10%;
+      }
+      
+      .footer {
+         background-color: #503047;
+         color: #FFFECB;
+      }
+
+      .footer > #footer-extra-info {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         align-items: center;
+         justify-content: center;
+      }
+
+      .footer > #footer-info {
+         margin-left: 20px;
+      }
+
+      #footer-extra-info > h2 {
+         margin-right: 10px;
+      }
+
+      #footer-extra-info > img {
+         margin-right: 5px;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <div class="container">
+
+      <div class="menu">
+
+         <h4> <a href="Pasteleria-Practica-home.html" > Home </a> | <a href="Pasteleria-Practica-pedidos.html" > Pedidos </a> </h4>
+
+      </div>
+ 
+      <div class="main-body">
+
+         <div id="title-logo">
+            <h1 class="titulo"> Pasteleria - La Practica </h1>
+            <img class="logo" src="Imagenes/logo.png" height="200px" width="200px" /> 
+         </div>
+
+         <h2> Sabores: </h2>
+            <table>
+               <tr>
+                  <td> <h4> Chocolate </h4> <img class="producto" src="Imagenes/Productos/chocolate cake.jpg" height="150px" width="200px" /> <p> $125.00 </p> </td>
+                  <td> <h4> Tres Leches </h4> <img class="producto" src="Imagenes/Productos/tres leches cake.jpg" height="150px" width="200px" /> <p> $150.00 </p> </td>
+                  <td> <h4> Limon </h4> <img class="producto" src="Imagenes/Productos/Lemon Cheesecake.jpg" height="150px" width="200px" /> <p> $100.00 </p> </td>
+                  <td> <h4> Zanahoria </h4> <img class="producto" src="Imagenes/Productos/carrot cake.jpg" height="150px" width="200px" /> <p> $100.00 </p> </td>
+               </tr>
+               <tr>
+                  <td> <h4> Piña con Chocolate </h4> <img class="producto" src="Imagenes/Productos/pineapple chocolate cake.jpg" height="150px" width="200px" /> <p> $200.00 </p> </td>
+                  <td> <h4> Naranja </h4> <img class="producto" src="Imagenes/Productos/orange cake.jpg" height="150px" width="200px" /> <p> $100.00 </p> </td>
+                  <td> <h4> Marmoleado </h4> <img class="producto" src="Imagenes/Productos/marmoleado cake.jpg" height="150px" width="200px" /> <p> $150.00 </p> </td>
+                  <td> <h4> Moca </h4> <img class="producto" src="Imagenes/Productos/moca cake.jpg" height="150px" width="200px" /> <p> 130.00 </p> </td>
+               </tr>
+               <tr>
+                  <td> <h4> Vainilla </h4> <img class="producto" src="Imagenes/Productos/vanilla cake.jpg" height="150px" width="200px" /> <p> $100.00 </p> </td>
+               </tr>
+            </table>
+         <h2> Decoraciones: </h2>
+            <table>
+               <tr>
+                  <td> <h4> Crema Batida </h4> <img class="producto" src="Imagenes/Productos/whipped cream.jpg" height="150px" width="200px" /> <p> $30.00 </p> </td>
+                  <td> <h4> Ganache de Chocolate </h4> <img class="producto" src="Imagenes/Productos/ganache chocolate.jpg" height="150px" width="200px" /> <p> $20.00 </p> </td>
+                  <td> <h4> Cerezas </h4> <img class="producto" src="Imagenes/Productos/cherries.jpg" height="150px" width="200px" /> <p> $50.00 </p> </td>
+                  <td> <h4> Frutos Rojos </h4> <img class="producto" src="Imagenes/Productos/berries.jpg" height="150px" width="200px" /> <p> $75.00 </p> </td>
+               </tr>
+               <tr>
+                  <td> <h4> Imagen Comestible </h4> <img class="producto" src="Imagenes/Productos/edible image.jpg" height="150px" width="200px" /> <p> $70.00 </p> </td>
+                  <td> <h4> Rebanadas de Piña </h4> <img class="producto" src="Imagenes/Productos/pineapple slices.png" height="150px" width="200px" /> <p> $60.00 </p> </td>
+                  <td> <h4> Merengue Suizo </h4> <img class="producto" src="Imagenes/Productos/swiss merengue.jpg" height="150px" width="200px" /> <p> $30.00 </p> </td>
+                  <td> <h4> Fondan </h4> <img class="producto" src="Imagenes/Productos/fondan.jpg" height="150px" width="200px" /> <p> $40.00 </p> </td>
+               </tr>
+               <tr>
+                  <td> <h4> Fresas </h4> <img class="producto" src="Imagenes/Productos/strawberries.jpg" height="150px" width="200px" /> <p> $30.00 </p> </td>
+                  <td> <h4> Rebanadas de Mango </h4> <img class="producto" src="Imagenes/Productos/mango slices.jpg" height="150px" width="200px" /> <p> $45.00 </p> </td>
+               </tr>
+               
+            </table>
+
+      </div>
+
+      <footer class="footer"> 
+
+         <h3> Dirección: </h3>
+         <p id="footer-info"> Av. Sta. Lucia 125, Olivar del Conde 1ra Secc, Álvaro Obregón Ciudad de México, CDMX </p>
+         <h3> Telefono: </h3>
+         <p id="footer-info"> 55-20-30-40-50 & 01 800-50-60-70-80 </p>
+         <h3> Horarios de Atención </h3>
+         <p id="footer-info"> Lunes a Viernes 9:00hrs. a 19:00hrs. </p>
+         <div id="footer-extra-info"> 
+            <h2> Facturación | Aviso Legal | Terminos y Condiciones | Aviso de Privacidad |  </h2> 
+            <img src="Imagenes\Iconos\twitter logo_icon.svg" height="50px" width="50px" /> <img src="Imagenes\Iconos\instagram logo_icon.svg" height="50px" width="50px" /> <img src="Imagenes\Iconos\facebook_logo_icon.svg" height="50px" width="50px" />
+         </div>
+         
+
+      </footer>
+
+   </div>
+
+</body>
+
+</html>
