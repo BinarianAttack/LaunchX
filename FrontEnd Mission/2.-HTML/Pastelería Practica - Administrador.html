@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Pasteleria - La Practica - Administrador </title>
+        <link rel="icon" type="x-icon" href="Imagenes/logo.png" />
+
+        <style>
+            body {
+                background-color: #3D0C11;
+                color: #FFFECB;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .main-body {
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+                padding: 20px;
+                align-items: center;
+            }
+
+            .main-body > #title-logo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
+            .main-body > .pedido {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                border: 1px dashed black;
+                margin: 10px 10px;
+            }
+
+            .pedido > h1 {
+                margin-left: 25px;
+            }
+
+            .pedido > #informacion-personal {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                background-color: black;
+                color: azure;
+                padding: 20px;
+            }
+
+            .pedido > #informacion-pedido {
+                background-color: black;
+                color: azure;
+                margin: 0px;
+                padding: 20px;
+            }
+
+            .pedido > #decoraciones-sabores{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: center;
+                background-color: black;
+                color: azure;
+                margin: 10px;
+                padding: 20px;
+            }
+
+            #decoraciones-sabores > #producto {
+                background-color: #FFFECB;
+                border-radius: 10%;
+                color: black;
+                margin: 10px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="main-body">
+
+            <div id="title-logo">
+                <h1> Panaderia - La Practica </h1>
+                <img src="Imagenes/logo.png" height="150px" width="150px" />
+            </div>
+
+            <h1> Pedidos: </h1>
+            
+            <div class="pedido">
+                <div id="informacion-personal">
+                    <h4> Nombre: </h4>
+                    <p> Michael L. Morris </p>
+                    <h4> Telefono: </h4>
+                    <p> 078 4712 6069 </p>
+                    <h4> Correo Electronico: </h4>
+                    <p> MichaelLMorris@teleworm.us </p>
+                </div>
+                <div id="informacion-pedido">
+                    <h4> Descripción del Pedido: </h4>
+                    <p> Pastel de chocolate de 3 capas con Imagen comestible del videojuego Fortnite y crema batida </p>
+                    <h4> Precio Total: </h4>
+                    <p> $225.00 </p>
+                </div>
+                <h1> Decoraciones y Sabores: </h1>
+                <div id="decoraciones-sabores">
+                    <div id="producto">
+                        <h3> Chocolate </h3>
+                        <h4> Inventario: </h4>
+                        <p> 5pz. restantes </p>
+                        <img src="Imagenes/Productos/chocolate cake.jpg" height="100px" width="150px" />
+                        <p> $125.00 </p>
+                    </div>
+                    <div id="producto">
+                        <h3> Imagen Comestible </h3>
+                        <h4> Inventario: </h4>
+                        <p> por pedido </p>
+                        <img src="Imagenes/Productos/edible image.jpg" height="100px" width="150px" />
+                        <p> $70.00 </p>
+                    </div>
+                    <div id="producto">
+                        <h3> Crema Batida </h3>
+                        <h4> Inventario: </h4>
+                        <p> 500gr. restantes </p>
+                        <img src="Imagenes/Productos/whipped cream.jpg" height="100px" width="150px" />
+                        <p> $30.00 </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pedido">
+                <div id="informacion-personal">
+                    <h4> Nombre: </h4>
+                    <p> Marianne E. Osborne </p>
+                    <h4> Telefono: </h4>
+                    <p> 070 7401 7524 </p>
+                    <h4> Correo Electronico: </h4>
+                    <p> MarianneEOsborne@jourrapide.com </p>
+                </div>
+                <div id="informacion-pedido">
+                    <h4> Descripción del Pedido: </h4>
+                    <p> Pastel de Naranja 2 capas, 1 capa en medio de Marmoleado, rebanadas de Piña y Cerezas </p>
+                    <h4> Precio Total: </h4>
+                    <p> $225.00 </p>
+                </div>
+                <h1> Decoraciones y Sabores: </h1>
+                <div id="decoraciones-sabores">
+                    <div id="producto">
+                        <h3> Naranja </h3>
+                        <h4> Inventario: </h4>
+                        <p> 13pz. restantes </p>
+                        <img src="Imagenes/Productos/orange cake.jpg" height="100px" width="150px" />
+                        <p> $100.00 </p>
+                    </div>
+                    <div id="producto">
+                        <h3> Marmoleado </h3>
+                        <h4> Inventario: </h4>
+                        <p> 20pz. restantes </p>
+                        <img src="Imagenes/Productos/marmoleado cake.jpg" height="100px" width="150px" />
+                        <p> $150.00 </p>
+                    </div>
+                    <div id="producto">
+                        <h3> Rebanadas de Piña </h3>
+                        <h4> Inventario: </h4>
+                        <p> 3kg. restantes </p>
+                        <img src="Imagenes/Productos/pineapple slices.png" height="100px" width="150px" />
+                        <p> $60.00 </p>
+                    </div>
+                    <div id="producto">
+                        <h3> Cerezas </h3>
+                        <h4> Inventario: </h4>
+                        <p> 5kg. restantes </p>
+                        <img src="Imagenes/Productos/cherries.jpg" height="100px" width="150px" />
+                        <p> $50.00 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
